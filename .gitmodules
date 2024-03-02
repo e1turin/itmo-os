@@ -1,0 +1,9 @@
+[submodule "lab-1"]
+	path = lab-1
+	url = https://github.com/e1turin/itmo-os-xv6-riscv
+[submodule "lab-2"]
+	path = lab-2
+	url = https://github.com/e1turin/itmo-os-xv6-riscv
+[submodule "lab-3"]
+	path = lab-3
+	url = https://github.com/e1turin/itmo-os-xv6-riscv
