@@ -31,14 +31,15 @@ sched:   [resched,schedpolicy]
 > - `explog` - iterate on n = exp(log(n) ÷ 1.00002)
 > - `int128` - 1000 iterations of a mix of 128 bit integer operations (GCC only).
 
-Думаю ...
+Чтобы построить графики нагрузки CPU, думаю можно измерять температуру ядра
+(опция `--tz` в stress-ng) или количество исполненных инструкций и циклов исполнения.
+Но оба из этих подходов требуют запуска кода на хостовой системе.
 
-```???
+```sh
 stress-ng --taskset 0,1,5-7 --matrix 5
-```
 
-```
-
+# to measure cycles & instructions overl all (-a) system
+sudo perf stat -B -ecycles:u,instructions:u -a sleep 5
 ```
 
 
