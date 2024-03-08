@@ -55,6 +55,20 @@ sched:   [resched,schedpolicy]
 
 Для нагрузки CPU выдаются варианты задач которые процессор будет решать (методы).
 
+`-c N, --cpu N`
+> start N workers exercising the CPU by sequentially  working  through  all
+> the  different  CPU stress  methods.  Instead of exercising all the CPU
+> stress methods, one can specify a specific CPU stress method with the
+> `--cpu-method` option.
+
+- N=0 создает воркера под каждое ядро процессора
+- не знаю, правильно ли таким образом создавать воркеров для методов нагрузки
+- Эта опция задает количество процессов, если другие опции создающие воркеров не указаны.
+
+```sh
+stress-ng --cpu 0 -t 20
+```
+
 `--cpu-method <method>`:
 > specify a cpu stress method. By default, all the stress methods  are  exer‐
 > cised  sequentially,  however one can specify just one method to be used if
@@ -70,23 +84,10 @@ sched:   [resched,schedpolicy]
 
 ```sh
 # cpu
-stress-ng --cpu-method explog -t 20
-stress-ng --cpu-method int128 -t 20
+stress-ng --cpu 0 --cpu-method explog -t 20
+stress-ng --cpu 0 --cpu-method int128 -t 20
 ```
 
-`-c N, --cpu N`
-> start N workers exercising the CPU by sequentially  working  through  all
-> the  different  CPU stress  methods.  Instead of exercising all the CPU
-> stress methods, one can specify a specific CPU stress method with the
-> `--cpu-method` option.
-
-- N=0 создает воркера под каждое ядро процессора
-- не знаю, правильно ли таким образом создавать воркеров для методов нагрузки
-- Эта опция задает количество процессов, если другие опции создающие воркеров не указаны.
-
-```sh
-stress-ng --cpu 0 -t 20
-```
 
 Чтобы построить графики нагрузки CPU, думаю можно измерять температуру ядра
 (опция `--tz` в stress-ng) или количество исполненных инструкций и циклов исполнения.
@@ -266,18 +267,18 @@ cpu:
 - `sar 1 20 -m` --- Powermanagement statistics
 - `pidstat -G stress-ng -u`
 - `stress-ng --tz` --- Измерение температуры на ядрах
-- `vmstat` --- time in vatious code sections
+- `vmstat 1 20` --- time in various code sections
 - `mpstat -u` --- CPU utilization
 
 cache:   
-- `vmstat` --- amount of memory used as cache
+- `vmstat 1 20` --- amount of memory used as cache
 
 io:      
 - `sar 1 20 -q IO`
 - `sar 1 20 -b` --- I/O and transfer reate statistics
 - `pidstat -G stress-ng -d`
 - `iostat`
-- `vmstat` --- time spent to IO
+- `vmstat 1 20` --- time spent to IO
 - `sudo iotop` --- TUI for monitoring
 
 memory:  
@@ -293,7 +294,7 @@ memory:
 network: 
 - `sar 1 20 -n ALL`
 - `nload -m -t 1000` --- Уровень загруженности сетевых устройств, уровень
-  трафика. (обновляется раз в 1000ms)
+  трафика. (обновляется раз в 1000ms, неудобно для логирования)
 - `iptraf` --- TUI для просмотра пакетов трафика в реальном времени
 
 pipe:    
@@ -359,4 +360,63 @@ GPT:
 > подсистеме и может быть использована для мониторинга и анализа
 > производительности системы. Вы можете комбинировать их в зависимости от ваших
 > конкретных потребностей и задач мониторинга.
+
+#### Тесты
+
+
+CPU:
+
+```sh
+# sar
+(stress-ng --cpu 0 --cpu-method explog -t 20 &) && 
+    (sar 1 20 -u >> cpu-explog-sar.log)
+(stress-ng --cpu 0 --cpu-method int128 -t 20 &) &&
+    (sar 1 20 -u >> cpu-int128-sar.log)
+
+# pidstat
+(stress-ng --cpu 0 --cpu-method explog -t 20 &) && 
+    (timeout 20 watch -n 1 "pidstat -G stress-ng -u >> cpu-explog-pidstat.log")
+(stress-ng --cpu 0 --cpu-method int128 -t 20 &) &&
+    (timeout 20 watch -n 1 "pidstat -G stress-ng -u >> cpu-int128-pidstat.log")
+
+# vmstat
+(stress-ng --cpu 0 --cpu-method explog -t 20 &) && 
+    (vmstat 1 20 >> cpu-explog-vmstat.log)
+(stress-ng --cpu 0 --cpu-method int128 -t 20 &) &&
+    (vmstat 1 20 >> cpu-int128-vmstat.log)
+
+# mpstat
+(stress-ng --cpu 0 --cpu-method explog -t 20 &) && 
+    (timeout 20 watch -n 1 "mpstat -u  >> cpu-explog-mpstat.log")
+(stress-ng --cpu 0 --cpu-method int128 -t 20 &) &&
+    (timeout 20 watch -n 1 "mpstat -u >> cpu-int128-mpstat.log")
+
+```
+
+IO:
+
+```sh
+# pidstat
+(stress-ng --io-uring 10 &) && 
+    (timeout 20 watch -n 1 "pidstat -G stress-ng -d >> io-io-uring-pidstat.log")
+(stress-ng --cpu 0 --ioport 10 &) &&
+    (timeout 20 watch -n 1 "pidstat -G stress-ng -d >> io-ioport-pidstat.log")
+
+#iostat
+(stress-ng --io-uring 10 &) &&
+    (timeout 20 watch -n 1 "iostat >> io-io-uring-iostat.log")
+(stress-ng --cpu 0 --ioport 10 &) &&
+    (timeout 20 watch -n 1 "iostat >> io-ioport-iostat.log")
+```
+
+Network:
+
+```sh
+
+(stress-ng --dccp 10 -t 20 &) && 
+    (sar 1 20 -n ALL >> network-dccp-sar.log)
+
+(stress-ng --cpu 0 --netlink-proc 10 -t 20 &) && 
+    (sar 1 20 -n ALL >> network-netlink-proc-sar.log)
+```
 
