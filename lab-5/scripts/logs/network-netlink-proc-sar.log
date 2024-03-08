@@ -1,0 +1,1240 @@
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+02:02:47        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:48           lo 288132.00 288132.00  91892.51  91892.51      0.00      0.00      0.00      0.00
+02:02:48         eth0      1.00      0.00      0.05      0.00      0.00      0.00      0.00      0.00
+
+02:02:47        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:48           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:48         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:48          230         8         4         1         0         0
+
+02:02:47       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:48    288182.00      0.00 288182.00 288181.00      0.00      0.00      0.00      0.00
+
+02:02:47    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47     active/s passive/s    iseg/s    oseg/s
+02:02:48         0.00      0.00      1.00      0.00
+
+02:02:47     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:48         0.00      0.00      0.00      0.00      0.00
+
+02:02:47       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:48         0.00      0.00      0.00      0.00
+
+02:02:47      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:48            1         0         1         0
+
+02:02:47      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:48         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:47      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:48         0.00      0.00      0.00      0.00
+
+02:02:47        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:48        all 288199.00      0.00      0.00      0.00      0.00
+
+02:02:48        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:49           lo 243945.00 243945.00  77756.81  77756.81      0.00      0.00      0.00      0.00
+02:02:49         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:49           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:49         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:49          230         8         4         1         0         0
+
+02:02:48       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:49    243891.00      0.00 243891.00 243891.00      0.00      0.00      0.00      0.00
+
+02:02:48    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48     active/s passive/s    iseg/s    oseg/s
+02:02:49         0.00      0.00      0.00      0.00
+
+02:02:48     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:49         0.00      0.00      0.00      0.00      0.00
+
+02:02:48       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:49         0.00      0.00      0.00      0.00
+
+02:02:48      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:49            1         0         1         0
+
+02:02:48      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:49         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:48      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:49         0.00      0.00      0.00      0.00
+
+02:02:48        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:49        all 243809.00      0.00      0.00      0.00      0.00
+
+02:02:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:50           lo 246674.00 246674.00  78580.09  78580.09      0.00      0.00      0.00      0.00
+02:02:50         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:50         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:50          231         8         4         1         0         0
+
+02:02:49       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:50    246667.00      0.00 246667.00 246667.00      0.00      0.00      0.00      0.00
+
+02:02:49    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49     active/s passive/s    iseg/s    oseg/s
+02:02:50         0.00      0.00      0.00      0.00
+
+02:02:49     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:50         0.00      0.00      0.00      0.00      0.00
+
+02:02:49       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:50         0.00      0.00      0.00      0.00
+
+02:02:49      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:50            1         0         1         0
+
+02:02:49      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:50         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:49      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:50         0.00      0.00      0.00      0.00
+
+02:02:49        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:50        all 246610.00      0.00      0.00      0.00      0.00
+
+02:02:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:51           lo 223722.00 223722.00  71231.01  71231.01      0.00      0.00      0.00      0.00
+02:02:51         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:51           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:51         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:51          230         8         4         1         0         0
+
+02:02:50       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:51    223740.00      0.00 223739.00 223740.00      0.00      0.00      0.00      0.00
+
+02:02:50    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50     active/s passive/s    iseg/s    oseg/s
+02:02:51         0.00      0.00      0.00      0.00
+
+02:02:50     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:51         0.00      0.00      0.00      0.00      0.00
+
+02:02:50       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:51         0.00      0.00      0.00      0.00
+
+02:02:50      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:51            1         0         1         0
+
+02:02:50      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:51         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:50      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:51         0.00      0.00      0.00      0.00
+
+02:02:50        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:51        all 223778.00      0.00      0.00      0.00      0.00
+
+02:02:51        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:52           lo 199634.00 199634.00  63552.14  63552.14      0.00      0.00      0.00      0.00
+02:02:52         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:52           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:52         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:52          230         8         4         1         0         0
+
+02:02:51       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:52    199603.00      0.00 199604.00 199603.00      0.00      0.00      0.00      0.00
+
+02:02:51    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51     active/s passive/s    iseg/s    oseg/s
+02:02:52         0.00      0.00      0.00      0.00
+
+02:02:51     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:52         0.00      0.00      0.00      0.00      0.00
+
+02:02:51       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:52         0.00      0.00      0.00      0.00
+
+02:02:51      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:52            1         0         1         0
+
+02:02:51      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:52         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:51      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:52         0.00      0.00      0.00      0.00
+
+02:02:51        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:52        all 199544.00      0.00      0.00      0.00      0.00
+
+02:02:52        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:53           lo 224385.00 224385.00  71476.89  71476.89      0.00      0.00      0.00      0.00
+02:02:53         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:53           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:53         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:53          229         8         4         1         0         0
+
+02:02:52       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:53    224404.00      0.00 224403.00 224405.00      0.00      0.00      0.00      0.00
+
+02:02:52    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52     active/s passive/s    iseg/s    oseg/s
+02:02:53         0.00      0.00      0.00      0.00
+
+02:02:52     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:53         0.00      0.00      0.00      0.00      0.00
+
+02:02:52       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:53         0.00      0.00      0.00      0.00
+
+02:02:52      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:53            1         0         1         0
+
+02:02:52      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:53         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:52      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:53         0.00      0.00      0.00      0.00
+
+02:02:52        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:53        all 224463.00      0.00      0.00      0.00      0.00
+
+02:02:53        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:54           lo 210203.00 210203.00  66910.07  66910.07      0.00      0.00      0.00      0.00
+02:02:54         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:54           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:54         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:54          231         8         4         1         0         0
+
+02:02:53       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:54    210213.00      0.00 210213.00 210213.00      0.00      0.00      0.00      0.00
+
+02:02:53    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53     active/s passive/s    iseg/s    oseg/s
+02:02:54         0.00      0.00      0.00      0.00
+
+02:02:53     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:54         0.00      0.00      0.00      0.00      0.00
+
+02:02:53       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:54         0.00      0.00      0.00      0.00
+
+02:02:53      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:54            1         0         1         0
+
+02:02:53      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:54         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:53      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:54         0.00      0.00      0.00      0.00
+
+02:02:53        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:54        all 210239.00      0.00      0.00      0.00      0.00
+
+02:02:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:55           lo 199238.00 199238.00  63442.72  63442.72      0.00      0.00      0.00      0.00
+02:02:55         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:55         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:55          230         8         4         1         0         0
+
+02:02:54       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:55    199258.00      0.00 199259.00 199257.00      0.00      0.00      0.00      0.00
+
+02:02:54    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54     active/s passive/s    iseg/s    oseg/s
+02:02:55         0.00      0.00      0.00      0.00
+
+02:02:54     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:55         0.00      0.00      0.00      0.00      0.00
+
+02:02:54       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:55         0.00      0.00      0.00      0.00
+
+02:02:54      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:55            1         0         1         0
+
+02:02:54      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:55         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:54      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:55         0.00      0.00      0.00      0.00
+
+02:02:54        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:55        all 199316.00      0.00      0.00      0.00      0.00
+
+02:02:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:56           lo 188113.00 188113.00  59854.67  59854.67      0.00      0.00      0.00      0.00
+02:02:56         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:56           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:56         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:56          230         8         4         1         0         0
+
+02:02:55       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:56    188091.00      0.00 188090.00 188091.00      0.00      0.00      0.00      0.00
+
+02:02:55    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55     active/s passive/s    iseg/s    oseg/s
+02:02:56         0.00      0.00      0.00      0.00
+
+02:02:55     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:56         0.00      0.00      0.00      0.00      0.00
+
+02:02:55       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:56         0.00      0.00      0.00      0.00
+
+02:02:55      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:56            1         0         1         0
+
+02:02:55      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:56         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:55      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:56         0.00      0.00      0.00      0.00
+
+02:02:55        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:56        all 188005.00      0.00      0.00      0.00      0.00
+
+02:02:56        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:57           lo 191811.00 191811.00  61076.22  61076.22      0.00      0.00      0.00      0.00
+02:02:57         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:57           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:57         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:57          231         8         4         1         0         0
+
+02:02:56       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:57    191814.00      0.00 191815.00 191814.00      0.00      0.00      0.00      0.00
+
+02:02:56    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56     active/s passive/s    iseg/s    oseg/s
+02:02:57         0.00      0.00      0.00      0.00
+
+02:02:56     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:57         0.00      0.00      0.00      0.00      0.00
+
+02:02:56       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:57         0.00      0.00      0.00      0.00
+
+02:02:56      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:57            1         0         1         0
+
+02:02:56      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:57         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:56      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:57         0.00      0.00      0.00      0.00
+
+02:02:56        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:57        all 191829.00      0.00      0.00      0.00      0.00
+
+02:02:57        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:58           lo 217583.00 217583.00  69232.10  69232.10      0.00      0.00      0.00      0.00
+02:02:58         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:58           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:58         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:58          230         8         4         1         0         0
+
+02:02:57       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:58    217553.00      0.00 217553.00 217553.00      0.00      0.00      0.00      0.00
+
+02:02:57    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57     active/s passive/s    iseg/s    oseg/s
+02:02:58         0.00      0.00      0.00      0.00
+
+02:02:57     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:58         0.00      0.00      0.00      0.00      0.00
+
+02:02:57       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:58         0.00      0.00      0.00      0.00
+
+02:02:57      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:58            1         0         1         0
+
+02:02:57      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:58         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:57      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:58         0.00      0.00      0.00      0.00
+
+02:02:57        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:58        all 217481.00      0.00      0.00      0.00      0.00
+
+02:02:58        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:02:59           lo 160759.00 160759.00  51126.13  51126.13      0.00      0.00      0.00      0.00
+02:02:59         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:02:59           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:02:59         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:02:59          230         8         4         1         0         0
+
+02:02:58       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:02:59    160778.00      0.00 160778.00 160778.00      0.00      0.00      0.00      0.00
+
+02:02:58    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58     active/s passive/s    iseg/s    oseg/s
+02:02:59         0.00      0.00      0.00      0.00
+
+02:02:58     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:02:59         0.00      0.00      0.00      0.00      0.00
+
+02:02:58       idgm/s    odgm/s  noport/s idgmerr/s
+02:02:59         0.00      0.00      0.00      0.00
+
+02:02:58      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:02:59            1         0         1         0
+
+02:02:58      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:02:59         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:58      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:02:59         0.00      0.00      0.00      0.00
+
+02:02:58        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:02:59        all 160778.00      0.00      0.00      0.00      0.00
+
+02:02:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:00           lo 153643.00 153643.00  48901.06  48901.06      0.00      0.00      0.00      0.00
+02:03:00         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:00         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:00          230         8         4         1         0         0
+
+02:02:59       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:00    153668.00      0.00 153667.00 153669.00      0.00      0.00      0.00      0.00
+
+02:02:59    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59     active/s passive/s    iseg/s    oseg/s
+02:03:00         0.00      0.00      0.00      0.00
+
+02:02:59     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:00         0.00      0.00      0.00      0.00      0.00
+
+02:02:59       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:00         0.00      0.00      0.00      0.00
+
+02:02:59      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:00            1         0         1         0
+
+02:02:59      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:00         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:02:59      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:00         0.00      0.00      0.00      0.00
+
+02:02:59        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:00        all 153868.00      0.00      0.00      0.00      0.00
+
+02:03:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:01           lo 219085.00 219085.00  69721.96  69721.96      0.00      0.00      0.00      0.00
+02:03:01         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:01           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:01         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:01          231         8         4         1         0         0
+
+02:03:00       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:01    219041.00      0.00 219042.00 219040.00      0.00      0.00      0.00      0.00
+
+02:03:00    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00     active/s passive/s    iseg/s    oseg/s
+02:03:01         0.00      0.00      0.00      0.00
+
+02:03:00     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:01         0.00      0.00      0.00      0.00      0.00
+
+02:03:00       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:01         0.00      0.00      0.00      0.00
+
+02:03:00      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:01            1         0         1         0
+
+02:03:00      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:01         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:00      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:01         0.00      0.00      0.00      0.00
+
+02:03:00        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:01        all 218841.00      0.00      0.00      0.00      0.00
+
+02:03:01        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:02           lo 188767.00 188767.00  60065.21  60065.21      0.00      0.00      0.00      0.00
+02:03:02         eth0      1.00      0.00      0.21      0.00      0.00      0.00      1.00      0.00
+
+02:03:01        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:02           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:02         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:02          232         8         4         1         0         0
+
+02:03:01       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:02    188768.00      0.00 188767.00 188767.00      0.00      0.00      0.00      0.00
+
+02:03:01    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01     active/s passive/s    iseg/s    oseg/s
+02:03:02         0.00      0.00      0.00      0.00
+
+02:03:01     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:02         0.00      0.00      0.00      0.00      0.00
+
+02:03:01       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:02         0.00      0.00      0.00      0.00
+
+02:03:01      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:02            1         0         1         0
+
+02:03:01      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:02         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:01      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:02         0.00      0.00      0.00      0.00
+
+02:03:01        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:02        all 188768.00      0.00      0.00      0.00      0.00
+
+02:03:02        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:03           lo 192860.00 192860.00  61352.13  61352.13      0.00      0.00      0.00      0.00
+02:03:03         eth0      1.00      0.00      0.21      0.00      0.00      0.00      1.00      0.00
+
+02:03:02        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:03           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:03         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:03          232         8         4         1         0         0
+
+02:03:02       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:03    192861.00      0.00 192860.00 192860.00      0.00      0.00      0.00      0.00
+
+02:03:02    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02     active/s passive/s    iseg/s    oseg/s
+02:03:03         0.00      0.00      0.00      0.00
+
+02:03:02     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:03         0.00      0.00      0.00      0.00      0.00
+
+02:03:02       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:03         0.00      0.00      0.00      0.00
+
+02:03:02      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:03            1         0         1         0
+
+02:03:02      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:03         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:02      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:03         0.00      0.00      0.00      0.00
+
+02:03:02        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:03        all 192934.00      0.00      0.00      0.00      0.00
+
+02:03:03        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:04           lo 195650.00 195650.00  62319.47  62319.47      0.00      0.00      0.00      0.00
+02:03:04         eth0      1.00      0.00      0.21      0.00      0.00      0.00      1.00      0.00
+
+02:03:03        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:04           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:04         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:04          229         8         4         1         0         0
+
+02:03:03       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:04    195670.00      0.00 195669.00 195669.00      0.00      0.00      0.00      0.00
+
+02:03:03    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03     active/s passive/s    iseg/s    oseg/s
+02:03:04         0.00      0.00      0.00      0.00
+
+02:03:03     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:04         0.00      0.00      0.00      0.00      0.00
+
+02:03:03       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:04         0.00      0.00      0.00      0.00
+
+02:03:03      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:04            1         0         1         0
+
+02:03:03      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:04         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:03      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:04         0.00      0.00      0.00      0.00
+
+02:03:03        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:04        all 195670.00      0.00      0.00      0.00      0.00
+
+02:03:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:05           lo 238988.00 238988.00  76128.91  76128.91      0.00      0.00      0.00      0.00
+02:03:05         eth0      1.00      0.00      0.21      0.00      0.00      0.00      1.00      0.00
+
+02:03:04        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:05         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:05          230         8         4         1         0         0
+
+02:03:04       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:05    238974.00      0.00 238973.00 238973.00      0.00      0.00      0.00      0.00
+
+02:03:04    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04     active/s passive/s    iseg/s    oseg/s
+02:03:05         0.00      0.00      0.00      0.00
+
+02:03:04     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:05         0.00      0.00      0.00      0.00      0.00
+
+02:03:04       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:05         0.00      0.00      0.00      0.00
+
+02:03:04      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:05            1         0         1         0
+
+02:03:04      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:05         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:04      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:05         0.00      0.00      0.00      0.00
+
+02:03:04        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:05        all 239041.00      0.00      0.00      0.00      0.00
+
+02:03:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:06           lo 268380.00 268380.00  85518.14  85518.14      0.00      0.00      0.00      0.00
+02:03:06         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:06           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:06         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:06          231         8         4         1         0         0
+
+02:03:05       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:06    268376.00      0.00 268376.00 268376.00      0.00      0.00      0.00      0.00
+
+02:03:05    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05     active/s passive/s    iseg/s    oseg/s
+02:03:06         0.00      0.00      0.00      0.00
+
+02:03:05     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:06         0.00      0.00      0.00      0.00      0.00
+
+02:03:05       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:06         0.00      0.00      0.00      0.00
+
+02:03:05      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:06            1         0         1         0
+
+02:03:05      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:06         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:05      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:06         0.00      0.00      0.00      0.00
+
+02:03:05        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:06        all 268253.00      0.00      0.00      0.00      0.00
+
+02:03:06        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+02:03:07           lo 199946.00 199946.00  63687.45  63687.45      0.00      0.00      0.00      0.00
+02:03:07         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+02:03:07           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+02:03:07         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06       call/s retrans/s    read/s   write/s  access/s  getatt/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+02:03:07          230         8         4         1         0         0
+
+02:03:06       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+02:03:07    199972.00      0.00 199972.00 199972.00      0.00      0.00      0.00      0.00
+
+02:03:06    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06     active/s passive/s    iseg/s    oseg/s
+02:03:07         0.00      0.00      0.00      0.00
+
+02:03:06     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+02:03:07         0.00      0.00      0.00      0.00      0.00
+
+02:03:06       idgm/s    odgm/s  noport/s idgmerr/s
+02:03:07         0.00      0.00      0.00      0.00
+
+02:03:06      tcp6sck   udp6sck   raw6sck  ip6-frag
+02:03:07            1         0         1         0
+
+02:03:06      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+02:03:07         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+02:03:06      idgm6/s   odgm6/s noport6/s idgmer6/s
+02:03:07         0.00      0.00      0.00      0.00
+
+02:03:06        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+02:03:07        all 200026.00      0.00      0.00      0.00      0.00
+
+Average:        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+Average:           lo 212575.90 212575.90  67691.29  67691.29      0.00      0.00      0.00      0.00
+Average:         eth0      0.25      0.00      0.05      0.00      0.00      0.00      0.20      0.00
+
+Average:        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+Average:           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:       call/s retrans/s    read/s   write/s  access/s  getatt/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+Average:          230         8         4         1         0         0
+
+Average:       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+Average:    212576.20      0.00 212576.00 212575.95      0.00      0.00      0.00      0.00
+
+Average:    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:     active/s passive/s    iseg/s    oseg/s
+Average:         0.00      0.00      0.05      0.00
+
+Average:     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+Average:         0.00      0.00      0.00      0.00      0.00
+
+Average:       idgm/s    odgm/s  noport/s idgmerr/s
+Average:         0.00      0.00      0.00      0.00
+
+Average:      tcp6sck   udp6sck   raw6sck  ip6-frag
+Average:            1         0         1         0
+
+Average:      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      idgm6/s   odgm6/s noport6/s idgmer6/s
+Average:         0.00      0.00      0.00      0.00
+
+Average:        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s
+Average:        all 212572.60      0.00      0.00      0.00      0.00
