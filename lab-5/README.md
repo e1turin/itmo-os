@@ -158,6 +158,7 @@ stress-ng --cache 10 --cache-ways 5
 > will cause delays on the CPU performing the I/O.
 
 - нужно дополнительно определить воркеров (хз почему)
+- требует привелегий
 
 Нагрузка:
 
@@ -187,7 +188,7 @@ stress-ng --cpu 0 --ioport 10
 
 ```sh
 stress-ng --cpu 0 --fork-vm 
-stress-ng --cpu 0 --zlib-mem-level
+stress-ng --cpu 0 --zlib-mem-level 8
 ```
 
 #### Нагрузка на сетевую подсистему
