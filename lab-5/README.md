@@ -25,6 +25,9 @@ sched:   [resched,schedpolicy]
 
 - [wiki.ubuntu.com/Kernel/Reference/stress-ng](https://wiki.ubuntu.com/Kernel/Reference/stress-ng)
 - [RedHat documentation. Chapter 29. Stress testing real-time systems with stress-ng](https://access.redhat.com/documentation/ru-ru/red_hat_enterprise_linux_for_real_time/8/html/optimizing_rhel_8_for_real_time_for_low_latency_operation/assembly_stress-testing-real-time-systems-with-stress-ng_optimizing-rhel8-for-real-time-for-low-latency-operation)
+- https://github.com/ColinIanKing/stress-ng
+    - https://github.com/ColinIanKing/stress-ng/blob/master/presentations/kernel-recipes-2023/kernel-recipes-2023.pdf
+    - https://github.com/ColinIanKing/stress-ng/blob/master/presentations/linux-foundation-webinar-2022-05-19/stress-ng-2021.pdf
 
 #### Оценивание
 

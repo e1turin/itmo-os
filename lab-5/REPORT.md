@@ -135,6 +135,10 @@ Ubuntu Multipass (4 ядра, 2GB RAM), но в ситу ограничения 
 можно было видеть в `htop`, т.к. там теперь не целиком ядра раскрашивались в
 красный цвет. Качественно оценить влияение на нагрузку так же не удалось.
 
+Довольно занятно посмотреть на код сестов и то, как используется порт 0x80:
+- https://github.com/ColinIanKing/stress-ng/blob/master/stress-ioport.c
+- 4.1.3. Задержка через порты ввода/вывода в https://www.opennet.ru/docs/HOWTO-RU/mini/IO-Port-Programming.html
+
 > см. скриншоты в каталоге [logs/live-kali/io/](./logs/live-kali/io/).
 
 #### Мониторинг подсистемы памяти
