@@ -1,0 +1,80 @@
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:21     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:21     all    4.98    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.73
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:22     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:22     all    4.98    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.73
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:23     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:23     all    4.99    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.73
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:24     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:24     all    4.99    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.72
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:25     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:25     all    4.99    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.72
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:26     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:26     all    5.00    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.72
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:27     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:27     all    5.00    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.71
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:28     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:28     all    5.00    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.71
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:29     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:29     all    5.01    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.71
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:30     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:30     all    5.01    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.70
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:31     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:31     all    5.01    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.70
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:32     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:32     all    5.02    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.70
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:33     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:33     all    5.02    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.69
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:34     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:34     all    5.02    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.69
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:35     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:35     all    5.02    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.69
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:36     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:36     all    5.03    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.68
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:37     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:37     all    5.03    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.68
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:38     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:38     all    5.03    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.68
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:39     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:39     all    5.04    0.04    1.54    0.21    0.00    0.50    0.00    0.00    0.00   92.68
+Linux 5.15.0-97-generic (dev-os) 	03/09/24 	_x86_64_	(4 CPU)
+
+01:35:40     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+01:35:40     all    5.04    0.04    1.54    0.20    0.00    0.50    0.00    0.00    0.00   92.67
