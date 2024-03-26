@@ -19,7 +19,11 @@
 3. C++ http server + C client: данные хранятся на сервере в ОЗУ, inode просто указывает на какую-то область памяти.
     - https://github.com/Malevrovich/os-awesome-filesystem/
 
+Пример реализации файловой системы
+- https://github.com/sysprog21/simplefs
+
 ## Референсы
+
 
 - https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html
 - https://sysprog21.github.io/lkmpg/
