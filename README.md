@@ -7,8 +7,9 @@
 
 ## Выполнение лабораторных работ
 
-1. [lab-1]()
-2. [lab-2]()
-3. [[--TODO]][lab-3]()
-4. [[--TODO]]
+1. [lab-1](./lab-1/README.md)
+2. [lab-2](./lab-2/README.md)
+3. [lab-3](./lab-3/README.md)
+4. [lab-4](./lab-4/README.md)
+5. [lab-5](./lab-5/README.md)
 
