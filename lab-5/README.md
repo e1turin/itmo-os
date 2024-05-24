@@ -28,6 +28,7 @@ sched:   [resched,schedpolicy]
 - https://github.com/ColinIanKing/stress-ng
     - https://github.com/ColinIanKing/stress-ng/blob/master/presentations/kernel-recipes-2023/kernel-recipes-2023.pdf
     - https://github.com/ColinIanKing/stress-ng/blob/master/presentations/linux-foundation-webinar-2022-05-19/stress-ng-2021.pdf
+- https://youtu.be/timRXe7884I —  «Максим Кита — Техники оптимизации производительности»
 
 #### Оценивание
 
